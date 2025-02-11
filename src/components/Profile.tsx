@@ -107,7 +107,7 @@ export default function Profile() {
         </div>
       </div>
       <div>
-        <h1 className="text-2xl font-bold text-white ">4</h1>
+        <h1 className="text-2xl font-bold text-white ">3</h1>
         <p className="">Projects</p>
       </div>
     </div>
