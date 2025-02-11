@@ -29,7 +29,7 @@ export default function Profile() {
       </div>
       <p className="">📍 Bicol, Philippines 🇵🇭</p>
       <p className="text-sm text-white ">
-        Building Web Porjects with your ideas in mind.
+      4th-year Computer Science student passionate about web and backend development. Exploring React, NestJS, .NET, and PostgreSQL to build efficient and scalable solutions.
       </p>
       <div className="flex gap-3">
         <a
@@ -110,6 +110,37 @@ export default function Profile() {
         <h1 className="text-2xl font-bold text-white ">3</h1>
         <p className="">Projects</p>
       </div>
+      <hr className="lg:hidden block"/>
+      {/* <div>
+        <p>Message Me</p>
+        <div className="flex flex-col gap-2">
+          <input
+            type="email"
+            name="email"
+            id="email"
+            className="bg-[#1F1F1F] w-full p-2 rounded-sm focus:outline-none"
+            placeholder="Email"
+          />
+          <input
+            type="text"
+            name="about"
+            id="about"
+            className="bg-[#1F1F1F] w-full p-2 rounded-sm focus:outline-none"
+            placeholder="About"
+          />
+          <div>
+            <textarea
+              name="message"
+              id="message"
+              cols={30}
+              rows={10}
+              placeholder="Message"
+              className="bg-[#1F1F1F] w-full p-2 rounded-sm focus:outline-none"
+            ></textarea>
+            <button className="bg-[#FF8C00] w-full p-2 rounded-sm">Send</button>
+          </div>
+        </div>
+      </div> */}
     </div>
   );
 }

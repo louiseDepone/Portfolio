@@ -18,7 +18,7 @@ export default function Education() {
         <div className=" flex gap-2 border-l pl-5">
           <div className="w-30 h-30 ">
             
-          <img src={sti} alt="" />
+          <img src={sti} alt=""/>
           </div>
           <div>
             <p className="text-2xl font-bold pb-1">Mobile Application And Website Development</p>
