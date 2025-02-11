@@ -1,4 +1,5 @@
-
+import ncf from '../assets/ncf.png';
+import sti from '../assets/sti.png';
 export default function Education() {
   return (
     <div>
@@ -6,7 +7,7 @@ export default function Education() {
       <div className="flex flex-col gap-3">
       <div className=" flex gap-2 border-l pl-5">
           <div className="w-30 h-30 ">
-            <img src="/public/static/images/ncf.png" alt="" />
+            <img src={ncf} alt="" />
           </div>
           <div>
             <p className="text-2xl font-bold pb-1">Bachelor of Computer Science</p>
@@ -17,7 +18,7 @@ export default function Education() {
         <div className=" flex gap-2 border-l pl-5">
           <div className="w-30 h-30 ">
             
-          <img src="/public/static/images/sti.png" alt="" />
+          <img src={sti} alt="" />
           </div>
           <div>
             <p className="text-2xl font-bold pb-1">Mobile Application And Website Development</p>

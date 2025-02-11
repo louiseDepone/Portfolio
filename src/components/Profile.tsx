@@ -1,4 +1,4 @@
-
+import profile from "../assets/profile.jpg";
 export default function Profile() {
   return (
     <div className="text-[#8C929D] flex flex-col gap-4">
@@ -9,7 +9,7 @@ export default function Profile() {
         "
         style={{
           background: "linear-gradient(145.5deg, #FFD700 0%, #FF8C00 100%)",
-          backgroundImage: "url(/public/static/images/profile.jpg)",
+          backgroundImage: `url(${profile})`,
           backgroundSize: "cover",
           backgroundPosition: "center",
           
@@ -51,7 +51,7 @@ export default function Profile() {
           </div>
         </button>
         <div className="flex justify-center items-center gap-2 ">
-          <a href="github.com">
+          <a href="https://github.com/louiseDepone" target="_blank">
             <svg
               width="21"
               height="21"
@@ -65,7 +65,7 @@ export default function Profile() {
               />
             </svg>
           </a>
-          <a href="linkedin.com">
+          <a href="https://www.linkedin.com/in/ryan-louise-epis-18a528275?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
             <svg
               width="20"
               height="20"
@@ -79,7 +79,7 @@ export default function Profile() {
               />
             </svg>
           </a>
-          <a href="gmail.com">
+          <a  href="mailto:louisedepone@gmail.com" target="_blank">
             <svg
               width="20"
               height="16"
