@@ -18,9 +18,9 @@ export default function Projects( ) {
     {
         projectName: "LineUp: Live Queueing System",
         projectDescription: [
-            "Developed the backend using .NET Web API (C#) and PostgreSQL, ensuring smooth and efficient data handling for queue management.",
-            "Integrated real-time updates, allowing users to see the current number being served at different counters without needing to refresh.",
-            "Designed a flexible system where departments have multiple locations, and counters can be dynamically added or extended based on queue length to improve service flow",
+            "Developed the backend of LineUp using .NET Web API (C#) and PostgreSQL for efficient queue management with real-time updates.",
+            "Designed a flexible system with dynamic counters and locations, optimizing service flow based on queue length.",
+            "Implemented email notifications for users when their ticket is near the front of the queue and upon transaction completion.",
         ],
         projectImage:"#",
         projectLinkGitHub: "#",
