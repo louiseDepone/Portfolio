@@ -12,8 +12,6 @@ type Project = {
 export default function Project({
     projectName,
     projectDescription,
-    projectImage,
-    projectLinkGitHub,
     projectFrontendStack,
     projectBackendStack,
     projectDatabase,

@@ -1,10 +1,8 @@
 import "./App.css";
 import Education from "./components/Education";
-import Message from "./components/Message";
 import Projects from "./components/Projects";
 import Side from "./components/Side";
 import Skills from "./components/Skills";
-import Tag from "./components/Tag";
 
 function App() {
   return (
