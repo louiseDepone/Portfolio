@@ -1,3 +1,4 @@
+import resume from "../assets/Resume = RYAN LOUISE DEPONE EPIS.pdf";
 import profile from "../assets/profile.jpg";
 export default function Profile() {
   return (
@@ -7,13 +8,12 @@ export default function Profile() {
           className="w-38 h-38 mb-5
         rounded-full  
         "
-        style={{
-          background: "linear-gradient(145.5deg, #FFD700 0%, #FF8C00 100%)",
-          backgroundImage: `url(${profile})`,
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-          
-        }}
+          style={{
+            background: "linear-gradient(145.5deg, #FFD700 0%, #FF8C00 100%)",
+            backgroundImage: `url(${profile})`,
+            backgroundSize: "cover",
+            backgroundPosition: "center",
+          }}
         >
           {/* <img
             src="/public/profile.jpg"
@@ -32,9 +32,17 @@ export default function Profile() {
         Building Web Porjects with your ideas in mind.
       </p>
       <div className="flex gap-3">
-        <button className="flex border p-3 py-1 rounded-sm">
-          <div className="flex items-center justify-center  gap-1">
+        <a
+          href={resume}
+          download="RYAN LOUISE DEPONE EPIS.pdf"
+          className="flex border p-3 py-1 rounded-sm cursor-pointer"
+        >
+          <a
+            download="RYAN LOUISE DEPONE EPIS.pdf"
+            className="flex items-center justify-center  gap-1 cursor-pointer"
+          >
             <svg
+              className="cursor-pointer"
               name="resume"
               width="12"
               height="15"
@@ -48,8 +56,8 @@ export default function Profile() {
               />
             </svg>
             <label htmlFor="resume">Resume</label>
-          </div>
-        </button>
+          </a>
+        </a>
         <div className="flex justify-center items-center gap-2 ">
           <a href="https://github.com/louiseDepone" target="_blank">
             <svg
@@ -65,7 +73,10 @@ export default function Profile() {
               />
             </svg>
           </a>
-          <a href="https://www.linkedin.com/in/ryan-louise-epis-18a528275?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
+          <a
+            href="https://www.linkedin.com/in/ryan-louise-epis-18a528275?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+            target="_blank"
+          >
             <svg
               width="20"
               height="20"
@@ -79,7 +90,7 @@ export default function Profile() {
               />
             </svg>
           </a>
-          <a  href="mailto:louisedepone@gmail.com" target="_blank">
+          <a href="mailto:louisedepone@gmail.com" target="_blank">
             <svg
               width="20"
               height="16"
