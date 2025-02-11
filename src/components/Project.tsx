@@ -38,7 +38,7 @@ export default function Project({
             }
             </ul>
 
-            <div className='flex gap-2 pt-2'>
+            <div className='flex gap-2 pt-2 flex-wrap'>
                 {
                     projectFrontendStack.map((stack, index) => (
                         <Tag key={index} skill={stack} type="frontend" />
