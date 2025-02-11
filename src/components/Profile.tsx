@@ -9,7 +9,7 @@ export default function Profile() {
         "
         style={{
           background: "linear-gradient(145.5deg, #FFD700 0%, #FF8C00 100%)",
-          backgroundImage: "url(/public/profile.jpg)",
+          backgroundImage: "url(/public/static/images/profile.jpg)",
           backgroundSize: "cover",
           backgroundPosition: "center",
           
